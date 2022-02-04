@@ -18,23 +18,22 @@ p{
   line-height: 1.5;
 }
 
-
 a{
   color: darkolivegreen;
   text-decoration: none;
 }
 
-
 a:hover{
   color: white;
-  background-color: #ADF;
+  background-color: darkslategray;
 }
 
 img{
   width: 200px;
   height: auto;
   margin: 10px;
-  border: 5px solid #aaddff;
+  border: 5px solid darkslategray;
+  ;
   opacity: 1;
   transition: 1s ease;
   -webkit-transition: 1s ease;
@@ -42,7 +41,6 @@ img{
   -ms-transition: 1s ease;
   -o-transition: 1s ease;
 }
-
 
 ul{
   color: black;
@@ -66,7 +64,7 @@ li {
 }
 
 .life h1 {
-  text-shadow: 2px 4px #aaddff;
+  text-shadow: 2px 4px darkslategray;
   color: darkolivegreen
 }
 
