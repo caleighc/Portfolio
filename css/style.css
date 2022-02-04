@@ -20,7 +20,7 @@ p{
 
 
 a{
-  color: black;
+  color: darkolivegreen;
   text-decoration: none;
 }
 
@@ -34,7 +34,13 @@ img{
   width: 200px;
   height: auto;
   margin: 10px;
-  border: 5px solid #ADF; 
+  border: 5px solid #ADF;
+  opacity: 1;
+  transition: 1s ease;
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
 }
 
 
@@ -57,5 +63,19 @@ li {
 .footer{
   background-color:black;
   color: white;
+}
+
+.life h1 {
+  text-shadow: 2px 4px #ADF;
+  color: darkolivegreen
+}
+
+.hover img:hover{
+  opacity: 0.5;
+  transition: 1s ease;
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
 }
 
